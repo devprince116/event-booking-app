@@ -8,13 +8,12 @@ import {
 import { eventList } from "../utils/EventDatabase";
 import { Navigation } from "../components/Navigation";
 import { EventCard } from "../components/EventCard";
-import { motion } from "framer-motion";
 
 export const EventList = () => {
   return (
     <>
       <Navigation />
-      <Container maxWidth="lg" sx={{ mt: 18, mb: 6 }}>
+      <Container maxWidth="xl" sx={{ mt: 18, mb: 6 }}>
         <Typography
           variant="h4"
           sx={{

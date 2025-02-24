@@ -24,6 +24,8 @@ export const EventCard: React.FC<EventCardProps> = ({
         sx={{
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
+          marginLeft: "auto",
+          marginRight: "auto",
           alignItems: "center",
           gap: 2,
           padding: 3,
@@ -70,6 +72,8 @@ export const EventCard: React.FC<EventCardProps> = ({
           <Box
             sx={{
               display: "flex",
+              direction: "row",
+              flexWrap: "wrap",
               justifyContent: "space-between",
               fontSize: "16px",
               mb: 1,

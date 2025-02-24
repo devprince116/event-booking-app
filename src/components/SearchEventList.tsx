@@ -34,6 +34,7 @@ export const SearchEventList = ({ filters }) => {
         <Box
           sx={{
             display: "flex",
+            flexDirection: "row",
             flexWrap: "wrap",
             gap: 3,
             justifyContent: "center",
